@@ -1,4 +1,5 @@
-# stable official Java runtime base image
+# stable official Java runtime base image, jdk image is not present on Docker Hub so need to change it
+#FROM eclipse-temurin:17-jdk-alpine
 FROM openjdk:17-jdk-alpine
 
 # metadata
